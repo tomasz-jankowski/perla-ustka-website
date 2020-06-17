@@ -1,0 +1,149 @@
+#ob1 {
+  
+  clip-path: polygon(0 0, 100% 0, 58% 100%, 0 100%);
+
+  background: url(willa.jpg);
+  background-size: cover;
+  background-position: 100% 100%;
+  left: 10%;
+  position: relative;
+  float: left;
+}
+
+
+#ob2 {
+  position: relative;
+  clip-path: polygon(42% 0, 100% 0, 100% 100%, 0 100%);
+  left: -10%;
+  background: url(apartamenty.jpg);
+  background-size: cover;
+  text-align: right;
+  float: right;
+}
+
+.obrazek {
+	overflow: hidden;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	color: white;
+	transition: filter 0.2s, color 0.2s;
+}
+
+.tekst {
+	font-weight: 200;
+    font-family: 'Playfair Display', serif;
+	text-shadow: 2px 2px 3px #000000;
+	font-size: 6.5vw;
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 1.2;
+}
+
+.tekst:first-child
+{
+	margin-left: 10%;
+}
+
+#t1 {
+	top: 5%;
+	position: relative;
+}
+
+#t2 {
+	bottom: 5%;
+	right: 2%;
+	position: absolute;
+}
+
+.obrazek:hover {
+	filter: brightness(130%);
+}
+
+.srodek {
+	width: 130%;
+	top: 0px; bottom: 0;
+	left: -15%;
+	position: absolute;
+}
+
+body {
+	overflow: hidden;
+	margin: 0;
+}
+
+.mobile, hr
+{
+	display: none;
+}
+
+@media screen and (max-width: 1200px)
+{
+	.tekst
+	{
+		font-size: 7.5vw;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+	.srodek
+	{
+		display: none;
+	}
+
+	.mobile
+	{
+		display: block;
+		width: 100vw;
+		height: 50vh;
+		object-fit: cover;
+		position:absolute;
+		left:0;
+		top:0;
+		/*opacity: 0.85;*/
+		filter: blur(0.5px);
+		-webkit-filter: blur(0.5px);
+		-moz-filter: blur(0.5px);
+		-o-filter: blur(0.5px);
+		-ms-filter: blur(0.5px);
+	}
+
+	#second {
+		position:absolute;
+		top: 50%;
+	}
+
+	.mobile:hover
+	{
+		filter: brightness(120%);
+	}
+
+	.text1
+	{
+		z-index:100;
+		position:absolute;    
+		color: white;
+		font-weight: 300;
+		font-family: 'Playfair Display', serif;
+		text-shadow: 2px 2px 3px #000000;
+		font-size: 9.5vw;
+		text-align: center;
+		width: 100vw;
+		top: 12vh;
+	}
+
+	#text2
+	{
+		top: 65vh;
+	}
+
+	.body {
+		width: 100vw;
+		height: 100vh;
+	}
+
+	.wrap {
+		overflow: hidden;
+	}
+}

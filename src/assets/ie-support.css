@@ -1,0 +1,138 @@
+@supports (-ms-ime-align: auto) {
+  /* Edge 13,14 */
+.srodek {
+	width: 100%;
+	left: 0px;
+}
+.obrazek {
+	width: 49%;
+	
+}
+
+#ob1 {
+	left: 0px;
+}
+
+#ob2 {
+	left: 0px;
+}
+
+.tekst {
+	font-size: 7.2vw;
+}
+
+}
+
+@supports (-ms-accelerator: true) {
+  /* Edge 13 */
+.srodek {
+	width: 100%;
+	left: 0px;
+}
+.obrazek {
+	width: 49%;
+	
+}
+
+#ob1 {
+	left: 0px;
+}
+
+#ob2 {
+	left: 0px;
+}
+
+.tekst {
+	font-size: 7.2vw;
+}
+  
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE 10, 11 */
+  
+.srodek {
+	width: 100%;
+	left: 0px;
+}
+.obrazek {
+	width: 49%;
+	
+}
+
+#ob1 {
+	left: 0px;
+}
+
+#ob2 {
+	left: 0px;
+}
+
+.tekst {
+	font-size: 7.2vw;
+}
+  
+}
+
+
+
+/* Safari 10.1+ */
+
+@media not all and (min-resolution:.001dpcm) { @media
+{
+
+.srodek {
+	width: 100%;
+	left: 0px;
+}
+.obrazek {
+	width: 49%;
+	
+}
+
+#ob1 {
+	left: 0px;
+}
+
+#ob2 {
+	left: 0px;
+}
+
+.tekst {
+	font-size: 7.0vw;
+}
+}}
+
+
+/* Safari 6.1-10.0 (10.1 is the latest version of Safari at this time) */
+
+@media screen and (min-color-index:0) 
+and(-webkit-min-device-pixel-ratio:0) { @media
+{
+
+.srodek {
+	width: 100%;
+	left: 0px;
+}
+.obrazek {
+	width: 49%;
+	
+}
+
+#ob1 {
+	left: 0px;
+}
+
+#ob2 {
+	left: 0px;
+}
+
+.tekst {
+	font-size: 7.0vw;
+}
+
+
+}}
+
+
+
